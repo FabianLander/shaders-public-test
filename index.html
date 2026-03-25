@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shader Gallery</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      padding: 60px 40px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: rgba(30, 30, 40, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 24px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      backdrop-filter: blur(12px);
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(100, 140, 255, 0.3);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+    .card-name {
+      font-size: 12px;
+      font-family: 'Monaco', 'Menlo', monospace;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 8px;
+    }
+    .card-desc {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shader Gallery</h1>
+  <div class="gallery">
+    <a class="card" href="example-buffer/index.html">
+      <div class="card-title">example-buffer</div>
+      
+      
+    </a>
+    <a class="card" href="example-gradient/index.html">
+      <div class="card-title">example-gradient</div>
+      
+      
+    </a>
+    <a class="card" href="full-plane-phi/index.html">
+      <div class="card-title">full-plane-phi</div>
+      
+      
+    </a>
+    <a class="card" href="inversion/index.html">
+      <div class="card-title">inversion</div>
+      
+      
+    </a>
+    <a class="card" href="mandel-julia/index.html">
+      <div class="card-title">mandel-julia</div>
+      
+      
+    </a>
+    <a class="card" href="packing/index.html">
+      <div class="card-title">packing</div>
+      
+      
+    </a>
+    <a class="card" href="packing-steve/index.html">
+      <div class="card-title">packing-steve</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space/index.html">
+      <div class="card-title">parameter-space</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-boundary/index.html">
+      <div class="card-title">parameter-space-boundary</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-no-color/index.html">
+      <div class="card-title">parameter-space-no-color</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-pt/index.html">
+      <div class="card-title">parameter-space-pt</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-quadpt/index.html">
+      <div class="card-title">parameter-space-quadpt</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-split/index.html">
+      <div class="card-title">parameter-space-split</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-split-color/index.html">
+      <div class="card-title">parameter-space-split-color</div>
+      
+      
+    </a>
+    <a class="card" href="parameter-space-zoom/index.html">
+      <div class="card-title">parameter-space-zoom</div>
+      
+      
+    </a>
+    <a class="card" href="parameter_space_split_color_zoom/index.html">
+      <div class="card-title">parameter_space_split_color_zoom</div>
+      
+      
+    </a>
+    <a class="card" href="quad-dual/index.html">
+      <div class="card-title">quad-dual</div>
+      
+      
+    </a>
+  </div>
+</body>
+</html>
